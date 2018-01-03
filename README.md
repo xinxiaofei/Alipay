@@ -1,3 +1,5 @@
+
+```javascript
 // 将请求参数转换为数组并排序
 function _getParams(params){
     params.biz_content = JSON.stringify(params.biz_content);
@@ -83,3 +85,4 @@ function _veriySign(data){
         console.log('verfiySign',err)
     }
 }
+```
